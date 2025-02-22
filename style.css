@@ -1,0 +1,142 @@
+*{
+    color: white;
+}
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background: #11182a;
+        color: #333;
+    }
+    header {
+        background: #333;
+        color: white;
+        padding: 1rem;
+        text-align: center;
+    }
+    nav ul {
+        list-style: none;
+        padding: 0;
+    }
+    nav ul li {
+        display: inline;
+        margin: 0 15px;
+    }
+    nav ul li:hover {
+        text-decoration: solid underline;
+    }
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+    }
+    .hero {
+        text-align: center;
+        padding: 50px 20px;
+        background-color: #11182a;
+        color: white;
+    }
+    .hero span {
+        font-weight: bold;
+    }
+    .btn {
+        display: inline-block;
+        margin-top: 10px;
+        padding: 10px 20px;
+        background: white;
+        color: #007BFF;
+        text-decoration: none;
+        border-radius: 5px;
+    }
+    .about, .projects, .contact {
+        padding: 50px 20px;
+        text-align: center;
+        padding: 20px;
+        margin: 20px;
+        border-radius: 10px;
+    }
+    .projects .project-container {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        
+    }
+    .project-card {
+        color: black;
+        background: rgb(3, 22, 48);
+        border-radius: 20px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        margin-bottom: 40px;
+        padding: 50px;
+    }
+    footer {
+        background: #333;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .skills {
+        text-align: center;
+        padding: 60px 20px;
+    }
+    
+    .skills-container {
+        display: inline-block;
+        background: rgb(3, 22, 48);
+        padding: 10px;
+        border-radius: 20px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+        padding-right: 150px;
+        padding-left: 150px;
+        
+    }
+    
+    .skills-container ul {
+        list-style: disc;
+        text-align: left;
+        padding-left: 20px;
+    }
+    
+    .skills-container li {
+        font-size: 18px;
+        margin: 10px 0;
+    }
+    
+    .education {
+        text-align: center;
+        padding: 20px 20px;
+    }
+    
+    .education-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    
+    table {
+        width: 80%;
+        max-width: 800px;
+        border-collapse: collapse;
+        background: rgb(3, 22, 48);
+        color: white;
+        overflow: visible;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    }
+    
+    th, td {
+        padding: 15px;
+        border: 1px solid white;
+        text-align: center;
+    }
+    
+    th {
+        background: #222a45;
+        font-weight: bold;
+    }
+    
+    tr:hover {
+        background: #1a2238;
+        transition: 0.3s ease-in-out;
+    }
+    
