@@ -1,1 +1,1 @@
-live link - https://sudhanshu-0109.github.io/project/portfolio.html
+live link - https://sudhanshu-0109.github.io/portfolio/portfolio.html
